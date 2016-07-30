@@ -3,7 +3,7 @@ const babel  = require('gulp-babel');
 const stylus = require('gulp-stylus');
 
 const htmlSource   = './src/html/*.html';
-const stylusSource = './src/styles/main.styl';
+const stylusSource = './src/styles/*.styl';
 const jsSource     = './src/js/*.js';
 const assetsSource = './assets/*';
 const destination  = './build';
